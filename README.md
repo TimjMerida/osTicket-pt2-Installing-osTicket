@@ -2,10 +2,10 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Post-Install Configuration</h1>
+<h1>osTicket - Installing osTicket on VM</h1>
 This tutorial outlines the installation of osTicket the open-source help desk ticketing system .<br />
 
-
+<h1>Prerequisites</h1>
 
 
 <h2>Environments and Technologies Used</h2>
