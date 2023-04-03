@@ -63,10 +63,10 @@ To start downloading the necessary files osTicket needs we will have to open Mic
 <br />
 
 <p>
-<img src="https://user-images.githubusercontent.com/128980344/229405976-3c9e725a-40fa-438b-8d84-aa6a4ff773e5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://user-images.githubusercontent.com/128980344/229410068-93cf103c-86a9-40df-9ca5-0c9b24524e70.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-The first download is going to be PHP manager for IIS. In the download files double click PHPmanagerforIIS and click download  
+The first download is going to be PHP manager for IIS. In the download files double click PHPmanagerforIIS and click download (if it says file type might be dangerous click download anyway). Then go to file explorer and under downloads double click php manager. Click through (Click I accept when asked) until its done. then click close.
 </p>
 <br />
 
