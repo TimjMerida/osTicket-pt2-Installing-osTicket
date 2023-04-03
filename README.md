@@ -43,7 +43,11 @@ Before we can start downloading the files we have to enable IIS. To do so right 
 <img src="https://user-images.githubusercontent.com/128980344/229408368-dcf30696-e77e-4cb1-b333-00ce1095558e.png" "80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Open the dropdown for World Wide Web Services and then again for Application Development Features. 
+<img src="https://user-images.githubusercontent.com/128980344/229409125-1c2a8e0a-833d-4cd3-bde3-e3d3bd8f7a84.png" "80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<p>
+Open the dropdown for World Wide Web Services and then again for Application Development Features. Check the box for CGI and then click ok. This will allow us to install PHP manager which osTicket runs off. Once its completed click close. To test if this worked open a new tab in your VM and type 127.0.0.1. We should see a IIS webpage. 
 </p>
 <br />
 
@@ -55,6 +59,14 @@ Open the dropdown for World Wide Web Services and then again for Application Dev
 </p>
 <p>
 To start downloading the necessary files osTicket needs we will have to open Microsoft Edge. Open this link in your VM's browser. These are the files we will be using. https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6. 
+</p>
+<br />
+
+<p>
+<img src="https://user-images.githubusercontent.com/128980344/229405976-3c9e725a-40fa-438b-8d84-aa6a4ff773e5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+The first download is going to be PHP manager for IIS. In the download files double click PHPmanagerforIIS and click download  
 </p>
 <br />
 
