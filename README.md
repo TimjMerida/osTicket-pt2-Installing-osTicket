@@ -7,6 +7,7 @@ This tutorial outlines the installation of osTicket the open-source help desk ti
 
 <h1>Prerequisites</h1>
 
+-Have completed part <a href="https://github.com/TimjMerida/osTicket-pt1-VM-setup">one</a>
 
 <h2>Environments and Technologies Used</h2>
 
