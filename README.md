@@ -26,7 +26,7 @@ This tutorial outlines the installation of osTicket the open-source help desk ti
 <img src="https://user-images.githubusercontent.com/128980344/229168973-7bd8f8eb-f3aa-40dc-8971-538e445ff549.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-To start downloading osTicket we need to RDP (Remote Desktop Protocol) into the VM. Start by going to VM's in Azure and going to virtual machines. Select the VM you are using for this lab (VM-1-osTicket-Lab if you are following along). We need the public ip adress on the right.
+Before we can start downloading osTicket we need to RDP (Remote Desktop Protocol) into the VM. Start by going to VM's in Azure and going to virtual machines. Select the VM you are using for this lab (VM-1-osTicket-Lab if you are following along). We need the public ip adress on the right.
 </p>
 <br />
 
@@ -50,10 +50,19 @@ We have to sign in with the username and password we created in part <a href="ht
 <br />
 
 <p>
-<img src="https://user-images.githubusercontent.com/128980344/229172217-f634a6d5-2066-4b17-a564-90ace922c995.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://user-images.githubusercontent.com/128980344/229172217-f634a6d5-2066-4b17-a564-90ace922c995.png"  height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
 
 <p>
 After conecting you will get to choose privacy settings. You can turn all these off for this lab.
+</p>
+<br />
+
+<p>
+<img src=""  height="50%" width="50%" alt="Disk Sanitization Steps"/>
+</p>
+
+<p>
+
 </p>
 <br />
