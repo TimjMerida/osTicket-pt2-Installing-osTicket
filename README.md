@@ -71,10 +71,27 @@ The first download is going to be PHP manager for IIS. In the download files dou
 <br />
 
 <p>
+<img src="https://user-images.githubusercontent.com/128980344/229669484-6869358a-fe59-4c57-83cc-430867a68957.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+After these are downloaded we have to create a directory for PHP on the local hard drive. Go to the file explorer on the VM and under this pc click (c:). Create a new folder and name it PHP (you can do this by right clicking and picking new folder). This is where we will end up putting the PHP install. Now that we have the folder we can install PHP. Go to the downloads and download the PHP-7.3.8 file (download the whole file at once). Once downloaded go to downloads and right click the file. We need to extract all. Then click browse and choose the PHP folder we created under (C:). 
+</p>
+<br />
+
+<p>
+<img src="https://user-images.githubusercontent.com/128980344/229671789-ae7d7302-8cb7-4a1f-9b20-425fdd216b43.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Next download the VC_redist file. Then double click and install it.
+</p>
+<br />
+
+<p>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After these are downloaded we have to create a directory for PHP on the local hard drive. Go to the file explorer on the VM and under this pc click (c:). Create a new folder and name it PHP. This is where we will end up putting the PHP install.
+After we have to download the MySql 5.5.62 file. We then have to install MySql. We will be doing a typical install. When done we want to launch the configuration wizard. We will be making credentials for MySql (write down the credentials you create). We will be doing a standard configuration. Click next and proceed to create credentials. The username is set to root (this is preset) and the password I am using is Password12321. We can click next and then execute.  
 </p>
 <br />
+
 
