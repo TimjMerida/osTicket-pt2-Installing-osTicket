@@ -94,4 +94,12 @@ After we have to download the MySql 5.5.62 file. We then have to install MySql. 
 </p>
 <br />
 
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Next we need to register PHP in IIS. On the VM click start and search for IIS. We need to open IIS as an administrator. Right click IIS and use run as administrator.    
+</p>
+<br />
+
 
