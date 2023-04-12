@@ -95,11 +95,39 @@ After we have to download the MySql 5.5.62 file. We then have to install MySql. 
 <br />
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://user-images.githubusercontent.com/128980344/231492351-f59b0822-df6c-4a4d-b672-e09e2a29b043.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Next we need to register PHP in IIS. On the VM click start and search for IIS. We need to open IIS as an administrator. Right click IIS and use run as administrator.    
+Next we need to register PHP in IIS. On the VM click start and search for IIS. We need to open IIS as an administrator. Right click IIS and use run as administrator. We can see URl rewrite and PHP manager we installed earlier. Open PHP manager and then register new PHP version. We will browse and go to PHP - CGI. Open it and click ok. Since we have made changes in IIS we should restart IIS. On the right under manage servers click restart.     
 </p>
 <br />
+
+<p>
+<img src="https://user-images.githubusercontent.com/128980344/231493096-39e8dfe0-692b-4f56-968f-bcb11a9d3574.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Since we have made changes in IIS we should restart IIS. On the right under manage servers click restart.     
+</p>
+<br />
+
+<p>
+<img src="https://user-images.githubusercontent.com/128980344/231494675-868964c9-d27d-4b2f-ac7d-4a5cfdffdd80.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Next we are going to download osTicket 1.15.8 from the instillation files. We then need to extract and copy the "Uploads" folder which is in the osTicket file we downloaded. We will be putting the copy int the c:\inetpub\wwwroot folder. Open a new file explorer next to the Uploads folder and go to c:\inetpub\wwwroot drag and drop the Uploads folder into its new location which will create a copy. When the file is done copying we need to rename it to osTicket * It must be named exactly osTicket to function properly * Since we made changes in IIS we need to restart the server again.       
+</p>
+<br />
+
+<p>
+<img src="https://user-images.githubusercontent.com/128980344/231496054-01791d8f-f8bc-41a0-80fb-e9abf423dfdf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://user-images.githubusercontent.com/128980344/231496858-1f8359f8-e16d-413a-b654-eb3f91d677c3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+We then are going to enable extensions for osTicket. In IIS click on server-sites-default-osTicket on the right click browse 80. We now have a osTicket webpage where we can check our extensions. Back in IIs go to PHP manager and under PHP extensions click enable or disable an extension. We need to enable php_imap.dll php_inti.dll and php_opcahe.dll. Click on them and enable on the right. When done we can refresh the webpage and we should see sone of the extensions activate.    
+</p>
+<br />
+
 
 
