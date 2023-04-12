@@ -140,6 +140,24 @@ Afterwards refresh the webpage and we should see sone of the extensions activate
 </p>
 <br />
 
+<p>
+<img src="https://user-images.githubusercontent.com/128980344/231499719-9730f25b-f1ef-41ba-84ac-924f77d8f1fe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://user-images.githubusercontent.com/128980344/231499751-0284c3fc-fea8-4cf9-a591-1ca0453418db.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Next we need to rename the ost-samplecongif file into ost-config. The file is located in C:\inetpubwwwroot\osTicket\include. Right click the file, got to properties - security - advanced  then disable inheritance and remove all inheritance permissions. Then we need to add permissions, select a principal. Click in the white box and type everyone, then check names and click ok. Check full control, this will allow osTicket to be set up by anyone. Clcik ok, apply and ok and ok again.    
+</p>
+<br />
+
+<p>
+<img src="https://user-images.githubusercontent.com/128980344/231499751-0284c3fc-fea8-4cf9-a591-1ca0453418db.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+We then need to disble inheritance on the file so it can be used by anyone. Right click the file, got to properties - security - advanced  then disable inheritance and remove all inheritance permissions. Then we need to add permissions, select a principal. Click in the white box and type everyone, then check names and click ok. Check full control, this will allow osTicket to be set up by anyone. Clcik ok, apply and ok and ok again.    
+</p>
+<br />
 
 
 
