@@ -129,5 +129,17 @@ We then are going to enable extensions for osTicket. In IIS click on server-site
 </p>
 <br />
 
+<p>
+<img src="https://user-images.githubusercontent.com/128980344/231497725-8815f8ff-ad2d-490d-9123-30733116a65b.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://user-images.githubusercontent.com/128980344/231497875-d5e8aff0-173d-4793-bd22-da68c38f1daa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Afterwards refresh the webpage and we should see sone of the extensions activate.    
+</p>
+<br />
+
+
 
 
