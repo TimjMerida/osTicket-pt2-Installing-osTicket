@@ -154,10 +154,96 @@ Next we need to rename the ost-samplecongif file into ost-config. The file is lo
 <p>
 <img src="https://user-images.githubusercontent.com/128980344/231499751-0284c3fc-fea8-4cf9-a591-1ca0453418db.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
+<p>
+<img src="https://user-images.githubusercontent.com/128980344/231499751-0284c3fc-fea8-4cf9-a591-1ca0453418db.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<p>
+<img src="https://user-images.githubusercontent.com/128980344/231499751-0284c3fc-fea8-4cf9-a591-1ca0453418db.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 <p>
 We then need to disble inheritance on the file so it can be used by anyone. Right click the file, got to properties - security - advanced  then disable inheritance and remove all inheritance permissions. Then we need to add permissions, select a principal. Click in the white box and type everyone, then check names and click ok. Check full control, this will allow osTicket to be set up by anyone. Clcik ok, apply and ok and ok again.    
 </p>
 <br />
+
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Next we will set up osTicket in the browser. Go to the webpage and click continue. Here fill out the form and take note of what you put in. For this lab I will use 
+
+helpdesk name *Lab Help Desk* 
+Default email *Jeff@helper.com*
+
+Admin info
+Name *Jeff Mart* 
+Email *Jeff@gmail.com*
+
+User *Admin_User*
+Pass *Password12321*    
+</p>
+<br />
+
+
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Before we continue we ahve to set up our database. To set up our database we have to download heidi sql from the install link. Once downloaded open heidi form downloads and go throught the prompts until the end. Make sure the box is checked to launch then click finish.   
+</p>
+<br />
+
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+In heidi we are going to create a new connnection to the database. On the bottom left click new. For the username and password we will use the same from mySQL server username root and Password12321. Click open and we have our connection.   
+</p>
+<br />
+
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+We then will make a new database in heidi for osTicket. Right click unnamed - create new - databse. For the name we will use osticket. Click ok and we have our osticket database.
+<br />
+  
+  
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Back in the browser for osTicket setup we have to fill out our database settings. For username and password we will use the recently entered root and Password12321. And for the mySQL database name we will use osticket. Click install now and we should get a coingradulations screen form osTicket. 
+<br />
+  
+  
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Once that is complete we will delete teh c:\inetpub\wwwroot\osTicket\setup folder in our files.
+<br />
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+After we will set the ost-config file to read only. Right click the file - properties - security - advanced - everyone and edit. Uncheck all but read and execute. Click ok - apply and ok again.
+<br />
+
+ 
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Next we will check if we can login by going to this link http://localhost/osTicket/scp/login.php. Open this in a new tab in the VM and we will login using the admin credentials Admin_User and Password12321. Now we are met with the osTicket interface and a ticket saying osTicket installed! 
+<br />
+ 
 
 
 
