@@ -241,7 +241,7 @@ After we will set the ost-config file to read only. Right click the file - prope
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Next we will check if we can login by going to this link http://localhost/osTicket/scp/login.php. Open this in a new tab in the VM and we will login using the admin credentials Admin_User and Password12321. Now we are met with the osTicket interface and a ticket saying osTicket installed! 
+Next we will check if we can login by going to this link http://localhost/osTicket/scp/login.php. Open this in a new tab in the VM and we will login using the admin credentials Admin_User and Password12321. Now we are met with the osTicket interface and a ticket saying osTicket installed! This completes the Installation of osTicket and we can move on to <a href="https://github.com/TimjMerida/osTicket-pt3-Post-instillation-setup">part 3 - Post installation setup!</a> 
 <br />
  
 
