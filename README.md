@@ -166,7 +166,7 @@ We then need to disble inheritance on the file so it can be used by anyone. Righ
 
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://user-images.githubusercontent.com/128980344/232362178-2cf01c0d-e8ba-4558-98c0-334bf20398ba.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Next we will set up osTicket in the browser. Go to the webpage and click continue. Here fill out the form and take note of what you put in. For this lab I will use 
@@ -186,7 +186,7 @@ Pass *Password12321*
 
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://user-images.githubusercontent.com/128980344/232362252-d13581d1-d895-487f-9e26-a26cf4b5ced9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Before we continue we ahve to set up our database. To set up our database we have to download heidi sql from the install link. Once downloaded open heidi form downloads and go throught the prompts until the end. Make sure the box is checked to launch then click finish.   
@@ -195,7 +195,7 @@ Before we continue we ahve to set up our database. To set up our database we hav
 
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://user-images.githubusercontent.com/128980344/232362290-de951bfd-6bbb-431d-a4d3-6562afc35dc6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 In heidi we are going to create a new connnection to the database. On the bottom left click new. For the username and password we will use the same from mySQL server username root and Password12321. Click open and we have our connection.   
@@ -204,7 +204,10 @@ In heidi we are going to create a new connnection to the database. On the bottom
 
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://user-images.githubusercontent.com/128980344/232362315-988dc468-846b-44b2-b23d-358a0edb6cbf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://user-images.githubusercontent.com/128980344/232362539-faa4adfc-29b5-4637-ba0b-0a8580c8b8e4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 We then will make a new database in heidi for osTicket. Right click unnamed - create new - databse. For the name we will use osticket. Click ok and we have our osticket database.
