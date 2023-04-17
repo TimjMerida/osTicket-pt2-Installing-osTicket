@@ -215,22 +215,28 @@ We then will make a new database in heidi for osTicket. Right click unnamed - cr
   
   
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://user-images.githubusercontent.com/128980344/232362696-6b15cc8b-6dad-4f7d-ba85-93f552eadacb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
+<p>
+<img src="https://user-images.githubusercontent.com/128980344/232362714-cd90a29d-eb80-4a56-a881-3d704107ec64.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+
 <p>
 Back in the browser for osTicket setup we have to fill out our database settings. For username and password we will use the recently entered root and Password12321. And for the mySQL database name we will use osticket. Click install now and we should get a coingradulations screen form osTicket. 
 <br />
   
   
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://user-images.githubusercontent.com/128980344/232362720-89c39dde-b897-4765-a399-57fde2e589b5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Once that is complete we will delete teh c:\inetpub\wwwroot\osTicket\setup folder in our files.
 <br />
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://user-images.githubusercontent.com/128980344/232362727-bd1764d9-c932-45f7-b952-fd2dc29a9669.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 After we will set the ost-config file to read only. Right click the file - properties - security - advanced - everyone and edit. Uncheck all but read and execute. Click ok - apply and ok again.
@@ -238,7 +244,7 @@ After we will set the ost-config file to read only. Right click the file - prope
 
  
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://user-images.githubusercontent.com/128980344/232362731-2039a3cf-8b21-4470-acec-a90da404ff85.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Next we will check if we can login by going to this link http://localhost/osTicket/scp/login.php. Open this in a new tab in the VM and we will login using the admin credentials Admin_User and Password12321. Now we are met with the osTicket interface and a ticket saying osTicket installed! This completes the Installation of osTicket and we can move on to <a href="https://github.com/TimjMerida/osTicket-pt3-Post-instillation-setup">part 3 - Post installation setup!</a> 
